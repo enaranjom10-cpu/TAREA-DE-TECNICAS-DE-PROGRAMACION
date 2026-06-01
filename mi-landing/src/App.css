@@ -1,0 +1,18 @@
+/* App.css */
+
+.app {
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Modo oscuro */
+.app.oscuro {
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+}
+
+/* Modo claro */
+.app.claro {
+  background-color: #f5f5f5;
+  color: #111;
+}
